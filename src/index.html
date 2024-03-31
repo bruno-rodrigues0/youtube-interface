@@ -8,12 +8,12 @@
 </head>
 <body class="bg-zinc-950 text-white p-3">
     <div class="">
-        <header class="flex gap-4 items-center justify-between">
-            <div class="flex">
-                <button class="hover:bg-zinc-800 rounded-full"><a href=""><i class="fa-solid fa-bars text-zinc-500 p-2 text-2xl"></i></a></button>
-                <button class="flex items-center"><a href="">
-                    <i class="fa-brands fa-youtube"></i>
-                        <span class="font-bold font-sans tracking-tighter">Youtube</span>
+        <header class="flex gap-4 items-center justify-between mb-2">
+            <div class="flex items-center gap-3">
+                <button class="hover:bg-zinc-800 rounded-full"><a href=""><i class="fa-solid fa-bars text-zinc-500 p-1.5 text-2xl"></i></a></button>
+                <button class="flex items-center"><a href="" class="flex items-center">
+                    <i class="fa-brands fa-youtube text-2xl"></i>
+                    <span class="font-bold font-sans tracking-tighter">Youtube</span>
                 </a></button>
             </div>
 
@@ -26,7 +26,7 @@
                 <button class="rounded-full bg-zinc-800 p-1 pl-3 pr-3 border border-zinc-600" ><i class="fa-solid fa-microphone"></i></button>
             </div>
 
-            <div class="flex items-center gap-2">
+            <div class="flex items-center gap-3">
                 <button class="hover:bg-zinc-800 rounded-full"><a href=""><i class="fa-solid fa-video text-zinc-500 p-2 text-2xl"></i></a></button>
                 <button class="hover:bg-zinc-800 rounded-full"><a href=""><i class="fa-regular fa-bell text-zinc-500 p-2 text-2xl"></i></a></button>
                 <button class="hover:bg-zinc-800 rounded-full"><a href="" class="flex items-end"><img src="./assets/tanjiro.jpg" alt="perfil"
@@ -34,74 +34,124 @@
                     > </a></button>
             </div>
         </header>
-        <aside class="flex flex-col w-48" >
-                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center mt-3">
-                    <a href="" class="flex items-center">
-                        <i class="fa-solid fa-house p-1 pr-4 text-zinc-500 text-xl"></i>
-                        <span>Início</span>
-                    </a>
-                </button>
-                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
-                    <a href="" class="flex items-center">
-                        <i class="fa-solid fa-play p-1.5 pr-5 text-zinc-500 text-xl "></i>
-                        <span>Shorts</span>
-                    </a>
-                </button>
-                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
-                    <a href="" class="flex items-center">
-                        <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
-                        <span>Inscrições</span>
-                    </a>
-                </button>
-                <hr class="  mt-4 mb-4">
-                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
-                    <a href="" class="flex items-center">
-                        <span class="p-1.5">Você</span>
-                        <i class="fa-solid fa-chevron-right  text-zinc-500 text-sm "></i>
-                    </a>
-                </button>
-                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
-                    <a href="" class="flex items-center">
-                        <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
-                        <span>Seu canal</span>
-                    </a>
-                </button>
-                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
-                    <a href="" class="flex items-center">
-                        <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
-                        <span>Histórico</span>
-                    </a>
-                </button>
-                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
-                    <a href="" class="flex items-center">
-                        <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
-                        <span>Histórico</span>
-                    </a>
-                </button>
-                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
-                    <a href="" class="flex items-center">
-                        <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
-                        <span>Histórico</span>
-                    </a>
-                </button>
-                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
-                    <a href="" class="flex items-center">
-                        <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
-                        <span>Histórico</span>
-                    </a>
-                </button>
-                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
-                    <a href="" class="flex items-center">
-                        <i class="fa-solid fa-chevron-down p-1.5 pr-5 text-zinc-500 text-sm "></i>
-                        <span>Mostrar mais</span>
-                    </a>
-                </button>
-                <hr class="  mt-4 mb-4">
-                <span class="p-1.5">Inscrições</span>
 
+        <div class="flex gap-3">
+            <aside class="flex flex-col w-48 overflow-y-auto" >
+                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                        <a href="" class="flex items-center">
+                            <i class="fa-solid fa-house p-1 pr-4 text-zinc-500 text-xl"></i>
+                            <span>Início</span>
+                        </a>
+                    </button>
+                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                        <a href="" class="flex items-center">
+                            <i class="fa-solid fa-play p-1.5 pr-5 text-zinc-500 text-xl "></i>
+                            <span>Shorts</span>
+                        </a>
+                    </button>
+                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                        <a href="" class="flex items-center">
+                            <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                            <span>Inscrições</span>
+                        </a>
+                    </button>
+                    <hr class="  mt-4 mb-4">
+                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                        <a href="" class="flex items-center">
+                            <span class="p-1.5">Você</span>
+                            <i class="fa-solid fa-chevron-right  text-zinc-500 text-sm "></i>
+                        </a>
+                    </button>
+                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                        <a href="" class="flex items-center">
+                            <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                            <span>Seu canal</span>
+                        </a>
+                    </button>
+                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                        <a href="" class="flex items-center">
+                            <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                            <span>Histórico</span>
+                        </a>
+                    </button>
+                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                        <a href="" class="flex items-center">
+                            <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                            <span>Histórico</span>
+                        </a>
+                    </button>
+                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                        <a href="" class="flex items-center">
+                            <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                            <span>Histórico</span>
+                        </a>
+                    </button>
+                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                        <a href="" class="flex items-center">
+                            <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                            <span>Histórico</span>
+                        </a>
+                    </button>
+                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                        <a href="" class="flex items-center">
+                            <i class="fa-solid fa-chevron-down p-1.5 pr-5 text-zinc-500 text-sm "></i>
+                            <span>Mostrar mais</span>
+                        </a>
+                    </button>
+                    <hr class="  mt-4 mb-4">
+                    <span class="p-1.5">Inscrições</span>
+                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                        <a href="" class="flex items-center">
+                            <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                            <span>Histórico</span>
+                        </a>
+                    </button>
+                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                        <a href="" class="flex items-center">
+                            <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                            <span>Histórico</span>
+                        </a>
+                    </button>
+                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                        <a href="" class="flex items-center">
+                            <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                            <span>Histórico</span>
+                        </a>
+                    </button>
+                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                        <a href="" class="flex items-center">
+                            <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                            <span>Histórico</span>
+                        </a>
+                    </button>
+                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                        <a href="" class="flex items-center">
+                            <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                            <span>Histórico</span>
+                        </a>
+                    </button>
+                    
             
-            
-        </aside>
+            </aside>
+            <main class="flex flex-col w-full">
+                <div class="flex items-center w-full gap-3 p-1.5 flex-wrap">
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Tudo</a></button>
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Jogos</a></button>
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Python</a></button>
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Programação de computadores</a></button>
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Música</a></button>
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Mixes</a></button>
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Dublagens</a></button>
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
+                </div>
+
+                <div>
+                    <div>lol</div>
+                </div>
+            </main>
+
+        </div>
     </div>
     
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
