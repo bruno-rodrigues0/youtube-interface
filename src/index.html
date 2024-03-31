@@ -6,7 +6,62 @@
     <title>Document</title>
     <link rel="stylesheet" href="./output.css">
 </head>
-<body class="bg-gray-800">
-    <h1 class="text-3xl text-white font-bold">Hello, World!</h1>
+<body class="bg-zinc-950 text-white p-3">
+    <div class="flex">
+        <aside class="flex flex-col w-48" >
+            <div class="flex gap-4 items-center ">
+                <button class="hover:bg-zinc-800 rounded-full"><a href=""><i class="fa-solid fa-bars text-zinc-500 p-2 text-2xl"></i></a></button>
+                <button class="flex items-center"><a href="">
+                    <i class="fa-brands fa-youtube"></i>
+                        <span class="font-bold font-sans tracking-tighter">Youtube</span>
+                </a></button>
+            </div>
+                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center mt-3">
+                    <a href="" class="flex items-center">
+                        <i class="fa-solid fa-house p-1 pr-4 text-zinc-500 text-xl"></i>
+                        <span>Início</span>
+                    </a>
+                </button>
+                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <a href="" class="flex items-center">
+                        <i class="fa-solid fa-play p-1.5 pr-5 text-zinc-500 text-xl "></i>
+                        <span>Shorts</span>
+                    </a>
+                </button>
+                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <a href="" class="flex items-center">
+                        <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                        <span>Inscrições</span>
+                    </a>
+                </button>
+                <hr class="  mt-4 mb-4">
+                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <a href="" class="flex items-center">
+                        <span class="p-1.5">Você</span>
+                        <i class="fa-solid fa-chevron-right  text-zinc-500 text-sm "></i>
+                    </a>
+                </button>
+                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <a href="" class="flex items-center">
+                        <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                        <span>Seu canal</span>
+                    </a>
+                </button>
+                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <a href="" class="flex items-center">
+                        <i data-lucide="history" class=" p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                        <span>Histórico</span>
+                    </a>
+                </button>
+            
+        </aside>
+    </div>
+    
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://kit.fontawesome.com/19ad99d8f1.js" crossorigin="anonymous"></script>
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>
