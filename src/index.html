@@ -7,15 +7,34 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body class="bg-zinc-950 text-white p-3">
-    <div class="flex">
-        <aside class="flex flex-col w-48" >
-            <div class="flex gap-4 items-center ">
+    <div class="">
+        <header class="flex gap-4 items-center justify-between">
+            <div class="flex">
                 <button class="hover:bg-zinc-800 rounded-full"><a href=""><i class="fa-solid fa-bars text-zinc-500 p-2 text-2xl"></i></a></button>
                 <button class="flex items-center"><a href="">
                     <i class="fa-brands fa-youtube"></i>
                         <span class="font-bold font-sans tracking-tighter">Youtube</span>
                 </a></button>
             </div>
+
+            <div class="space-x-0">
+                <input type="text" name="search" id="search" placeholder="Pesquisar"
+                    class="bg-zinc-950 border-zinc-600 border p-1 rounded-s-2xl w-96"
+                >
+                <button class="bg-zinc-800 p-1 border border-zinc-600 w-12 rounded-e-2xl"><i class="fa-solid fa-magnifying-glass"></i></button>
+                &nbsp;
+                <button class="rounded-full bg-zinc-800 p-1 pl-3 pr-3 border border-zinc-600" ><i class="fa-solid fa-microphone"></i></button>
+            </div>
+
+            <div class="flex items-center gap-2">
+                <button class="hover:bg-zinc-800 rounded-full"><a href=""><i class="fa-solid fa-video text-zinc-500 p-2 text-2xl"></i></a></button>
+                <button class="hover:bg-zinc-800 rounded-full"><a href=""><i class="fa-regular fa-bell text-zinc-500 p-2 text-2xl"></i></a></button>
+                <button class="hover:bg-zinc-800 rounded-full"><a href="" class="flex items-end"><img src="./assets/tanjiro.jpg" alt="perfil"
+                    class="rounded-full" style="width: 26px;"
+                    > </a></button>
+            </div>
+        </header>
+        <aside class="flex flex-col w-48" >
                 <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center mt-3">
                     <a href="" class="flex items-center">
                         <i class="fa-solid fa-house p-1 pr-4 text-zinc-500 text-xl"></i>
@@ -49,19 +68,43 @@
                 </button>
                 <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
                     <a href="" class="flex items-center">
-                        <i data-lucide="history" class=" p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                        <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
                         <span>Histórico</span>
                     </a>
                 </button>
+                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <a href="" class="flex items-center">
+                        <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                        <span>Histórico</span>
+                    </a>
+                </button>
+                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <a href="" class="flex items-center">
+                        <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                        <span>Histórico</span>
+                    </a>
+                </button>
+                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <a href="" class="flex items-center">
+                        <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                        <span>Histórico</span>
+                    </a>
+                </button>
+                <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <a href="" class="flex items-center">
+                        <i class="fa-solid fa-chevron-down p-1.5 pr-5 text-zinc-500 text-sm "></i>
+                        <span>Mostrar mais</span>
+                    </a>
+                </button>
+                <hr class="  mt-4 mb-4">
+                <span class="p-1.5">Inscrições</span>
+
+            
             
         </aside>
     </div>
     
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
     <script src="https://kit.fontawesome.com/19ad99d8f1.js" crossorigin="anonymous"></script>
-    <script>
-        lucide.createIcons();
-    </script>
 </body>
 </html>
