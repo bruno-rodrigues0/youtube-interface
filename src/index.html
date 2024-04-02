@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="overflow-hidden">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body class="bg-zinc-950 text-white p-3">
-    <div class="grid grid-rows-12 h-screen">
-        <header class="flex gap-4 items-center justify-between mb-2 row-span-1">
+    <div class="h-screen">
+        <header class="flex gap-4 items-center justify-between row-span-1 mb-2">
             <div class="flex items-center gap-3">
                 <button class="hover:bg-zinc-800 rounded-full"><a href=""><i class="fa-solid fa-bars text-zinc-500 p-1.5 text-2xl"></i></a></button>
                 <button class="flex items-center"><a href="" class="flex items-center">
@@ -36,102 +36,112 @@
         </header>
 
         <div class="gap-3 row-span-11 grid grid-cols-9">
-            <aside class="flex flex-col max-w-full overflow-y-auto col-span-1">
-                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+            <aside class="flex flex-col max-w-full overflow-y-scroll col-span-1 ">
+                    <button class="flex hover:bg-zinc-800 rounded-md max-w-full h-10 justify-start items-center">
                         <a href="" class="flex items-center">
                             <i class="fa-solid fa-house p-1 pr-4 text-zinc-500 text-xl"></i>
                             <span>Início</span>
                         </a>
                     </button>
-                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <button class="flex hover:bg-zinc-800 rounded-md max-w-full h-10 justify-start items-center">
                         <a href="" class="flex items-center">
                             <i class="fa-solid fa-play p-1.5 pr-5 text-zinc-500 text-xl "></i>
                             <span>Shorts</span>
                         </a>
                     </button>
-                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <button class="flex hover:bg-zinc-800 rounded-md max-w-full h-10 justify-start items-center">
                         <a href="" class="flex items-center">
                             <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
                             <span>Inscrições</span>
                         </a>
                     </button>
                     <hr class="  mt-4 mb-4">
-                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <button class="flex hover:bg-zinc-800 rounded-md max-w-full h-10 justify-start items-center">
                         <a href="" class="flex items-center">
                             <span class="p-1.5">Você</span>
                             <i class="fa-solid fa-chevron-right  text-zinc-500 text-sm "></i>
                         </a>
                     </button>
-                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <button class="flex hover:bg-zinc-800 rounded-md max-w-full h-10 justify-start items-center">
                         <a href="" class="flex items-center">
                             <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
                             <span>Seu canal</span>
                         </a>
                     </button>
-                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <button class="flex hover:bg-zinc-800 rounded-md max-w-full h-10 justify-start items-center">
                         <a href="" class="flex items-center">
                             <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
                             <span>Histórico</span>
                         </a>
                     </button>
-                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <button class="flex hover:bg-zinc-800 rounded-md max-w-full h-10 justify-start items-center">
                         <a href="" class="flex items-center">
                             <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
                             <span>Histórico</span>
                         </a>
                     </button>
-                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <button class="flex hover:bg-zinc-800 rounded-md max-w-full h-10 justify-start items-center">
                         <a href="" class="flex items-center">
                             <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
                             <span>Histórico</span>
                         </a>
                     </button>
-                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <button class="flex hover:bg-zinc-800 rounded-md max-w-full h-10 justify-start items-center">
                         <a href="" class="flex items-center">
                             <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
                             <span>Histórico</span>
                         </a>
                     </button>
-                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <button class="flex hover:bg-zinc-800 rounded-md max-w-full h-10 justify-start items-center">
                         <a href="" class="flex items-center">
                             <i class="fa-solid fa-chevron-down p-1.5 pr-5 text-zinc-500 text-sm "></i>
                             <span>Mostrar mais</span>
                         </a>
                     </button>
-                    <hr class="max-w-full">
+                    <hr class="max-w-full mt-4 mb-4">
                     <span class="p-1.5">Inscrições</span>
-                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <button class="flex hover:bg-zinc-800 rounded-md max-w-full h-10 justify-start items-center">
                         <a href="" class="flex items-center">
                             <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
                             <span>Histórico</span>
                         </a>
                     </button>
-                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <button class="flex hover:bg-zinc-800 rounded-md max-w-full h-10 justify-start items-center">
                         <a href="" class="flex items-center">
                             <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
                             <span>Histórico</span>
                         </a>
                     </button>
-                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <button class="flex hover:bg-zinc-800 rounded-md max-w-full h-10 justify-start items-center">
                         <a href="" class="flex items-center">
                             <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
                             <span>Histórico</span>
                         </a>
                     </button>
-                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <button class="flex hover:bg-zinc-800 rounded-md max-w-full h-10 justify-start items-center">
                         <a href="" class="flex items-center">
                             <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
                             <span>Histórico</span>
                         </a>
                     </button>
-                    <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
+                    <button class="flex hover:bg-zinc-800 rounded-md max-w-full h-10 justify-start items-center">
                         <a href="" class="flex items-center">
                             <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
                             <span>Histórico</span>
                         </a>
                     </button>
-                    
-            
+                    <button class="flex hover:bg-zinc-800 rounded-md max-w-full h-10 justify-start items-center">
+                        <a href="" class="flex items-center">
+                            <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                            <span>Histórico</span>
+                        </a>
+                    </button>
+                    <button class="flex hover:bg-zinc-800 rounded-md max-w-full h-10 justify-start items-center">
+                        <a href="" class="flex items-center">
+                            <i class="fa-solid fa-folder p-1.5 pr-4 text-zinc-500 text-xl "></i>
+                            <span>Histórico</span>
+                        </a>
+                    </button>
             </aside>
             <main class="flex flex-col max-w-full col-span-8">
                 <div class="flex items-center p-1.5 gap-3 overflow-x-scroll">
@@ -154,18 +164,11 @@
                     <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
                     <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
                     <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>           
                 </div>
-                <div>
-                    <div>lol</div>
+                <div class="max-w-full grid grid-rows-5 ">
+                    <div>item</div>
+                    <div>item</div>
                 </div>
             </main>
 
