@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./output.css">
-    <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-zinc-950 text-white p-3">
-    <div class="">
-        <header class="flex gap-4 items-center justify-between mb-2">
+    <div class="grid grid-rows-12 h-screen">
+        <header class="flex gap-4 items-center justify-between mb-2 row-span-1">
             <div class="flex items-center gap-3">
                 <button class="hover:bg-zinc-800 rounded-full"><a href=""><i class="fa-solid fa-bars text-zinc-500 p-1.5 text-2xl"></i></a></button>
                 <button class="flex items-center"><a href="" class="flex items-center">
@@ -36,8 +35,8 @@
             </div>
         </header>
 
-        <div class="flex gap-3">
-            <aside class="flex flex-col w-48 overflow-y-auto" >
+        <div class="gap-3 row-span-11 grid grid-cols-9">
+            <aside class="flex flex-col max-w-full overflow-y-auto col-span-1">
                     <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
                         <a href="" class="flex items-center">
                             <i class="fa-solid fa-house p-1 pr-4 text-zinc-500 text-xl"></i>
@@ -99,7 +98,7 @@
                             <span>Mostrar mais</span>
                         </a>
                     </button>
-                    <hr class="  mt-4 mb-4">
+                    <hr class="max-w-full">
                     <span class="p-1.5">Inscrições</span>
                     <button class="flex hover:bg-zinc-800 rounded-md w-48 h-10 justify-start items-center">
                         <a href="" class="flex items-center">
@@ -134,42 +133,39 @@
                     
             
             </aside>
-            <main class="flex flex-col w-full ">
-                <div class="relative flex items-center w-full gap-3 p-1.5">
-                    <div class="absolute h-8 w-10 z-1 bg-gradient-to-r from-black to-transparent"></div>
+            <main class="flex flex-col max-w-full col-span-8">
+                <div class="flex items-center p-1.5 gap-3 overflow-x-scroll">
                     <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Tudo</a></button>
                     <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Jogos</a></button>
                     <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Python</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="" >Programação de computadores</a></button>
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md flex text-nowrap"><a href="" >Programação de computadores</a></button>
                     <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Música</a></button>
                     <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Mixes</a></button>
                     <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Dublagens</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Podcast</a></button>
-                    <div class="fixed -left-full  h-8 w-10 z-1 bg-gradient-to-r from-transparent to-black"></div>
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
+                    <button class="p-1 pr-2 pl-2 bg-zinc-800 rounded-md"><a href="">Teclado</a></button>     
                 </div>
-
                 <div>
-                    <div></div>
+                    <div>lol</div>
                 </div>
             </main>
 
